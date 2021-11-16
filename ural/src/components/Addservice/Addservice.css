@@ -1,0 +1,24 @@
+.add_service_form {
+    margin: 60px 0 80px 0;
+    width: 75%;
+    text-align: center;
+}
+.add_service_form input , .add_service_form textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.add_service_form textarea{
+    min-height: 150px;
+}
+
+.add_service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_service_form .time{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0 20px;
+}

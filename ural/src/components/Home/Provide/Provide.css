@@ -1,0 +1,17 @@
+.provide_area{
+    margin: 70px 0;
+}
+.provide_img,.provide_text{
+    margin: 20px 0;
+}
+.provide_service{
+    margin-top: 60px;
+}
+.provide_service li{
+    margin: 10px 0;
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+

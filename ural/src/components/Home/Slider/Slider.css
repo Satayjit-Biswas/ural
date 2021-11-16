@@ -1,0 +1,23 @@
+.slider_area{
+    background-image: url('../../../assets/header_bg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.slider_area_overly{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.slider_area_text h2{
+    font-size: 64px;
+    color: #496bf2;
+    color: #fff;
+    text-transform: capitalize;
+}
+.slider_area_overly p{
+    display: inline-block;
+}

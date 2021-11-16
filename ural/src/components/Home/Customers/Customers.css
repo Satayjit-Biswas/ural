@@ -1,0 +1,25 @@
+.Customers_area{
+    margin-bottom: 60px;
+}
+.Customers_box{
+    text-align: center;
+    padding: 50px 25px;
+    border: 2px solid #00d690;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: .3s;
+}
+.Customers_box:hover{
+    box-shadow: 0 0 5px 0 #00d690;
+}
+.Customers_img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.322);
+}
+.Customers_name{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+}

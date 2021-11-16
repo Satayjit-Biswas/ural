@@ -1,0 +1,8 @@
+.Packaged_area{
+    margin-bottom: 60px;
+}
+.Packagedetails img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

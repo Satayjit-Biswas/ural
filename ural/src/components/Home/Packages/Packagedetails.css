@@ -1,0 +1,13 @@
+.Order_now_box{
+    padding: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    position: sticky;
+    top: 20px;
+    margin-bottom: 100px;
+}
+.Order_now_box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}

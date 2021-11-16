@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+.btn_custom {
+  background-color: #00d690;
+  padding: 8px 20px 10px 20px;
+  line-height: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  transition: .3s;
+  cursor: pointer;
+}
+.btn_custom:hover{
+  background-color: #07b178;
+  color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lora', serif;
+}
+h3{
+  font-size: 40px;
+  color: #050505;
+}
+h4{
+  color: #00d690;
+}
+p{
+  color: #90929d;
+  font-size: 18px;
+}
+.App .navbar-nav .active{
+  color: #00d690;
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1400px) { 
+	.container{
+		max-width: 1350px;
+	}
+}
+@media (min-width: 1200px) { 
+	.container{
+		max-width: 1200px;
+	}
+}
+
+@media (max-width: 1199px) { 
+  /* home page date area  */
+	.date_area_wrap .date_area {
+    position: static;
+    border: none;
+  }
+  .date_area_wrap .date_area p{
+    max-width: 100%;
+  }
+  .App .date_area_wrap {
+    padding: 0;
+}
+}
+
+@media (max-width: 991.98px) {
+  .btn_custom {
+    padding: 4px 20px 7px 20px;
+  }
+  .App .nav-item{
+    text-align: center;
+  }
+  .App .header_login_area{
+    justify-content: center;
+  }
+  .App .login_form ,.App .register_form { 
+    width: 100%;
+    margin-top: 40px;
+  }
+  .App .header_login_area {
+    margin-left: 0px;
+  }
+  /* order area  */
+  .App .myorder_area .order{
+    flex-direction: column;
+  }
+  .App .myorder_area .order img {
+    width: 100px;
+  }
+  .App .manageorder_area .order {
+    flex-direction: column;
+
+}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	.top_nav{
+    display: none;
+  }
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	.App .slider_area_text h2 {
+    font-size: 35px;
+  }
+  .App .slider_area_text p {
+    font-size: 15px;
+  }
+}
